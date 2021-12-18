@@ -16,15 +16,18 @@
   </head>
 
   <body>
-    <!-- Regroupement de nos éléments de formulaire dans une div -->
-    <div>
-      <label for="prenom">Votre prénom :</label>
-      <input type="text" id="prenom" />
+    <!-- Bouton qui ouvre la popup -->
+    <button id="btnPopup">Ouvrir</button>
 
-      <button id="submit">Envoyer</button>
+    <!-- Popup (masquée par défaut en CSS) -->
+    <div id="popup">
+      <!-- Contenu de la popup -->
+      <div class="popup_body">
+        <!-- Bouton de fermeture de la popup -->
+        <button class="close">X</button>
+
+        <!-- Le contenu sera généré dynamiquement avec JS -->
+      </div>
     </div>
-
-    <!-- Paragraphe qui contiendra la réponse Javascript -->
-    <p id="texte"></p>
   </body>
 </html>
