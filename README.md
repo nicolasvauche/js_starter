@@ -2,9 +2,10 @@
 Support de cours pour Javascript
 
 ## Branche master  
-* Pointer un élément du DOM
-* Écouter un évènement du DOM
-* Modifier un élément du DOM
+* Exercice appliqué : 
+    * Pointer un élément du DOM
+    * Écouter un évènement du DOM
+    * Modifier un élément du DOM
 
 ## Branche popup
 * Exercice appliqué : 
@@ -14,7 +15,6 @@ Support de cours pour Javascript
 * Exercice appliqué : 
     * Intercepter la soumission d'un formulaire
     * Valider les données d'un formulaire
-    * Harmoniser plusieurs écouteurs d'évènements
 
 ## Branche ajax
 * Requête AJAX en JS
