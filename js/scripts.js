@@ -31,5 +31,5 @@ const ecrirePrenom = () => {
 /* PARTIE 3 : Programme */
 /* ******************** */
 
-// On ajoute un écouteur d'éveènement sur le click du bouton
+// On ajoute un écouteur d'évènement sur le click du bouton
 button.addEventListener('click', ecrirePrenom)
