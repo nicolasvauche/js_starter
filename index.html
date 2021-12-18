@@ -17,12 +17,23 @@
 
   <body>
     <!-- Regroupement de nos éléments de formulaire dans une div -->
-    <div class="form">
-      <label for="prenom">Votre prénom :</label>
-      <input type="text" id="prenom" />
+    <form id="form" novalidate>
+      <div class="form_group">
+        <label for="nom">Votre nom :</label>
+        <input type="text" id="nom" name="nom" minlength="3" required />
+        <p class="error"></p>
+      </div>
 
-      <button id="submit">Envoyer</button>
-    </div>
+      <div class="form_group">
+        <label for="email">Votre email :</label>
+        <input type="email" id="email" name="email" required />
+        <p class="error"></p>
+      </div>
+
+      <div class="form_group">
+        <button id="submit">Envoyer</button>
+      </div>
+    </form>
 
     <!-- Paragraphe qui contiendra la réponse Javascript -->
     <p id="texte"></p>
