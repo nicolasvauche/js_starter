@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="fr">
+  <head>
     <!-- Informations destinées au navigateur -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,22 +11,20 @@
     <!-- Feuilles de styles -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Scripts JS -->
+    <!-- Scripts JS chargés tout à la fin grâce à l'attribut defer -->
     <script src="js/scripts.js" defer></script>
-</head>
+  </head>
 
-<body>
-    <label for="prenom">Votre prénom :</label>
-    <input type="text" id="prenom" />
-    <button id="submit">Envoyer</button>
+  <body>
+    <!-- Regroupement de nos éléments de formulaire dans une div -->
+    <div>
+      <label for="prenom">Votre prénom :</label>
+      <input type="text" id="prenom" />
 
-    <hr />
+      <button id="submit">Envoyer</button>
+    </div>
 
+    <!-- Paragraphe qui contiendra la réponse Javascript -->
     <p id="texte"></p>
-
-    <footer>
-        <p>Footer</p>
-    </footer>
-</body>
-
+  </body>
 </html>
