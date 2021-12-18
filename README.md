@@ -19,7 +19,7 @@ Support de cours pour Javascript
 ## Branche ajax
 * Requête AJAX en JS
 
-## Branche ajaxJQ
+## Branche ajaxjquery
 * Requête AJAX en JQuery
 
 ## Branche api
